@@ -29,14 +29,25 @@ Each item in the API follows this format:
 "completed": false
 }
 
+## Example Item
+
+{
+  "id": 1,
+  "name": "Learn Flask",
+  "completed": false
+}
 ## API Endpoints
 
-GET /items
-GET /items/<id>
-POST /items
-PUT /items/<id>
-DELETE /items/<id>
-GET /health
+| Method | Endpoint | Description |
+|------|------|------|
+| GET | /items | Get all items |
+| GET | /items/<id> | Get item by id |
+| POST | /items | Create item |
+| PUT | /items/<id> | Update item |
+| DELETE | /items/<id> | Delete item |
+| GET | /health | Check API status |
+
+
 
 ## Example POST Request
 
